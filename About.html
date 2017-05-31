@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Levr Technology, Inc</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body onload="Copy_Year();">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="index.html">L<span id="levr">EVR</span> Technology</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.php">Contact</a></li>
+               </ul>
+               <form class="navbar-form navbar-right">
+                <a class="btn btn-sm btn-primary" href="login.php" role="button">Login</a>
+               </form>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+<br></br>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron" style="margin-top: -50px; padding-top: 100px">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>We're a group of financial services practitioners with expertise in front, middle, and back office operations.  We're keen on bringing transparency and efficiency to the operations community and to fundamentally change how organizations interact with operations. </p>
+        <p><a class="btn btn-primary btn-md" href="LearnMore.php" role="button">Learn more &raquo;</a></p>
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-4">
+          <h2>Goal</h2>
+          <p>Here at L<span id="levr">EVR</span> Technology we understand the complex, dynamic, and strategic visions of financial firms.  We want to help make your business and operations as successful as possible! </p>
+        </div>
+        <div class="col-md-4">
+          <h2>PRIDE</h2>
+          <p>Run your business 365x24x7 with PRIDE (Personal Responsibility In Daily Excellence) for managing your operations, data, strategies, analytics, and metrics in a first class global businesses service.</p>
+       </div>
+        <div class="col-md-4">
+          <h2>Experience</h2>
+          <p>Levr Technology's founding members have over 15 yrs of financial software, technology and operations experience and have successfully brought previous businesses to the financial technology market.
+          <br></br>We are at the forefront of new, fast, and dynamic service and are fully committed to meeting and exceeding expectations. We also believe in keeping our services affordable to our clients, we make sure we are providing value to your organization.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+
+      <!-- FOOTER -->
+      <footer>
+        <!--<p class="pull-right"><a href="#">Back to top</a></p>-->
+          <p>&copy; 2015-<span id="spanDate"></span> L<span id='levr'>EVR</span> T<span id='levr'>ECHNOLOGY</span>, I<span id='levr'>NC</span>. &middot; <a data-toggle="modal" data-target="#privacyModal" href="#privacyModal" onclick="javascript:privacyMod();">Privacy</a> &middot; <a data-toggle="modal" data-target="#termsModal" href="#termsModal" onclick="javascript:termMod();">Terms</a></p>
+
+    <div class="modal" id="privacyModal">
+        <div class="modal-dialog" "model-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">x
+                  </button>
+                  <h4 class="modal-title">Privacy Statement</h4>
+                </div>
+                <div class="modal-body" id="privSyntax">
+                    <!-- javascript will populate this 
+                    using privacy_terms.js-->
+               </div>
+                <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="termsModal">
+
+      <div class="modal-dialog" "model-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+              <button class="close" data-dismiss="modal">x
+              </button>
+
+              <h4 class="modal-title">Terms Statement</h4>
+          </div>
+          <div class="modal-body" id="termSyntax"> 
+            <!-- javascript will populate this 
+                using privacy_terms.js-->
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      </footer>
+ 
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/privacy_terms.js"></script>
+      </body>
+</html>

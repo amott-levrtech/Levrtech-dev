@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Levr Technology, Inc</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!--<script src="../../assets/js/ie-emulation-modes-warning.js"></script>-->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="css/carousel.css" rel="stylesheet">
+  </head>
+<!-- NAVBAR
+================================================== -->
+  <body onload="Copy_Year();">
+    <div class="navbar-wrapper">
+      <div class="container">
+
+        <nav class="navbar navbar-inverse navbar-static-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">L<span id="levr">EVR</span> Technology</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+              <ul class="nav navbar-nav">
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.php">Contact</a></li>
+              </ul>
+               <form class="navbar-form navbar-right">
+                <a class="btn btn-sm btn-primary" href="login.php" role="button">Login</a>
+               </form>
+            </div>
+          </div>
+        </nav>
+
+      </div>
+    </div>
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+        <li data-target="#myCarousel" data-slide-to="3"></li>
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        <div class="item active">
+          <img class="first-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Leverage Your Operational Data!</h1>
+              <p>Do you spend more time and energy understanding your Operations and less time using it and improving it?</p>
+              <p><a class="btn btn-lg btn-primary" href="LearnMore.php" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="second-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Leverage Automation!</h1>
+              <p>Most firms have processes, data, people, and technology in place to run the businesses.&nbsp; In today's world, changes to your business, e.g. mergers &amp; acquisitions, regulatory requirements, strategy changes, investor / customer demands all apply pressure to your operations and technology groups.  You need to have a clear real time map of your operations and systems.&nbsp; </p>
+              <p><a class="btn btn-lg btn-primary" href="LearnMore.php" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="third-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Leverage Today's Technology!</h1>
+              <p>L<span id="levr">EVR</span> Technology's vision is to bring today's technology into your business to ensure you can grow your business in a foundational, sustainable manner.&nbsp; With L<span id="levr">EVR</span> Technology we can help you transform your business to a pro-active, fully audited, and operationally up-to-the-second view of your data and organization.</p>
+              <p><a class="btn btn-lg btn-primary" href="LearnMore.php" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img class="fourth-slide" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Fourth slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Leverage Expertise!</h1>
+              <p>Combine your firms considerable expertise on data and processes with L<span id="levr">EVR</span> Technology's unbiased expertise to deliver a fully transparent, automated, and sustainable operational service to enable your firm to make the right decisions for tomorrow based on metrics, unbiased results and industry comparisons.</p>
+              <p><a class="btn btn-lg btn-primary" href="LearnMore.php" role="button">Learn more</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div><!-- /.carousel -->
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/levr_diagnol_stripe_crop.png" alt="Levr stripe image" width="80" height="80">
+          <h2>Press Releases</h2>
+          <p>See the latest press releases for L<span id="levr">EVR</span> Technology.</p>
+          <p><a class="btn btn-default" href="NewsBlog.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/levr_diagnol_stripe_crop.png" alt="Levr stripe image" width="80" height="80">
+          <h2>L<span id="levr">EVR</span> Blog</h2>
+          <p>Connect to the L<span id="levr">EVR</span> Technology blog for information on topical subjects.</p>
+          <p><a class="btn btn-default" href="NewsBlog.html" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-4">
+          <img class="img-circle" src="images/levr_diagnol_stripe_crop.png" alt="Levr stripe image" width="80" height="80">
+          <h2>Media</h2>
+          <p>Click to receive updates for L<span id="levr">EVR</span> Technology and to follow the company.</p>
+          <p><a class="btn btn-default" href="LearnMore.php" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+
+
+      <!-- START THE FEATURETTES -->
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-10">
+          <h2 class="featurette-heading"><span class="text-muted">Company Vision</span></h2>
+          <div> 
+          <!--style="background-image: url(images/levr_tech_header.jpg); background-repeat:no-repeat; background-size: 100% 100%; border-radius: 5px">
+          -->
+          <p class="lead">Levr Technology specializes in IT Operations and Technology.  We focus on two strategic principals to empower firms:</p> 
+          <p></p>
+          <p> 1.  IT Operations and Architecture spanning front, middle, and back offices.</p>
+          <p></p>
+          <p> 2.  Markit EDM and data management capabilities.</p>
+
+          <p>Data Management and efficient IT Operations form the foundation of a nimble, responsive, and proactive organization. We believe that if an organization has this foundation, they can empower their business to focus on the core businesses!</p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-10">
+          <h2 class="featurette-heading">Operational <span class="text-muted">Transparency</span></h2>
+          <p class="lead">Full dashboard capabilities to understand current progress, metrics and details on your operations, anywhere in the world.</p>
+            <img class="levr-global-progress" src="images/demo_dashboard.jpg"></img>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <!--<p class="pull-right"><a href="#">Back to top</a></p>-->
+          <p>&copy; 2015-<span id="spanDate"></span> L<span id='levr'>EVR</span> T<span id='levr'>ECHNOLOGY</span>, I<span id='levr'>NC</span>. &middot; <a data-toggle="modal" data-target="#privacyModal" href="#privacyModal" onclick="javascript:privacyMod();">Privacy</a> &middot; <a data-toggle="modal" data-target="#termsModal" href="#termsModal" onclick="javascript:termMod();">Terms</a></p>
+
+    <div class="modal" id="privacyModal">
+        <div class="modal-dialog" "model-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                  <button class="close" data-dismiss="modal">x
+                  </button>
+                  <h4 class="modal-title">Privacy Statement</h4>
+                </div>
+                <div class="modal-body" id="privSyntax">
+                    <!-- javascript will populate this 
+                    using privacy_terms.js-->
+               </div>
+                <div class="modal-footer">
+                <button class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal" id="termsModal">
+
+      <div class="modal-dialog" "model-sm">
+        <div class="modal-content">
+          <div class="modal-header">
+              <button class="close" data-dismiss="modal">x
+              </button>
+
+              <h4 class="modal-title">Terms Statement</h4>
+          </div>
+          <div class="modal-body" id="termSyntax"> 
+            <!-- javascript will populate this 
+                using privacy_terms.js-->
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="levr/dist/js/privacy_terms.js"></script>
+    <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+    <!--<script src="../../assets/js/vendor/holder.min.js"></script> -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!--<script src="../../assets/js/ie10-viewport-bug-workaround.js"></script> -->
+  </body>
+</html>
